@@ -1,0 +1,26 @@
+.navigation__icon i:hover {
+	color: $secondary;
+	
+}
+
+.navigation__icon__bar{
+	padding-top:0.8em;
+}
+
+.navigation__logo h2{
+	font-size: $x-large;
+	font-weight: $semi-bold;
+	font-family: $open-sans;
+	display:flex;
+	align-self: flex-start;
+	
+}
+
+.navigation__logo sup{
+	font-size: $x-small;
+	font-family: $open-sans;
+	font-weight: $regular;
+
+	
+}
+

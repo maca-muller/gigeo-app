@@ -1,0 +1,39 @@
+.user__profile__img{
+	width:70px;
+
+}
+ 
+.user__profile__title {
+	font-family: $montserrat;
+	font-size: $large;
+ 	font-weight: $bold;
+ 	margin: 0;
+}
+
+
+.user__profile__text {
+	font-family: $open-sans;
+	font-size: $small;
+	margin: 0;
+}
+
+
+@media (max-width:800px){
+	.user__profile{
+		display: flex;
+		justify-content: center;
+	}
+	.user__profile__img{
+		width:100px;
+	}
+
+	
+
+}
+
+.user__profile__center{
+		display:flex;
+		align-items:baseline;
+	}
+
+	
